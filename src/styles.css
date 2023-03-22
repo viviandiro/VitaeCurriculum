@@ -38,3 +38,9 @@ h1 {
   font-family: var(--text-font-two);
   box-shadow: 3px 3px 0px 3px var(--second-color);
 }
+@media (max-width: 800px) {
+  div {
+    text-align: center;
+    padding: 4px;
+  }
+}
