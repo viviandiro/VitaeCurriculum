@@ -1,0 +1,40 @@
+:root {
+  --text-font: Brush Script MT;
+  --text-font-two: Georgia;
+  --primary-color: rgb(85, 59, 22);
+  --second-color: rgb(131, 191, 192);
+  --gradient: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+div {
+  justify-content: space-evenly;
+  font-family: var(--text-font-two);
+  font-size: 20px;
+}
+.logo {
+  padding: 5%;
+}
+h2 {
+  font-family: var(--text-font);
+  color: var(--primary-color);
+}
+h3 {
+  font-family: courier;
+  font-size: 30px;
+  opacity: 0.5;
+}
+h1 {
+  font-family: var(--text-font);
+  color: var(--primary-color);
+  font-size: 100px;
+  text-align: center;
+}
+.nav-link {
+  background: var(--gradient);
+  padding: 10px;
+
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: var(--text-font-two);
+  box-shadow: 3px 3px 0px 3px var(--second-color);
+}
