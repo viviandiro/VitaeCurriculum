@@ -1,46 +1,98 @@
 :root {
   --text-font: Brush Script MT;
   --text-font-two: Georgia;
-  --primary-color: rgb(85, 59, 22);
-  --second-color: rgb(131, 191, 192);
-  --gradient: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  --text-font-three: Courier;
+  --primary-color: rgb(247, 247, 247);
+  --second-color: rgb(26, 70, 70);
+  --colorFondo: rgb(0, 0, 0);
+  --gradient: linear-gradient(
+    to right,
+    rgb(29, 26, 26),
+    rgb(118, 35, 139),
+    rgb(29, 26, 26)
+  );
+  --gradient2: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(19, 18, 18) 24%,
+    rgb(118, 35, 139) 49%,
+    rgb(18, 18, 18) 73%,
+    rgb(0, 0, 0) 100%
+  );
 }
 
 div {
   justify-content: space-evenly;
-  font-family: var(--text-font-two);
+  font-family: var(--text-font-three);
   font-size: 20px;
-}
-.logo {
-  padding: 5%;
-}
-h2 {
-  font-family: var(--text-font);
   color: var(--primary-color);
+  background-color: var(--colorFondo);
 }
+h1,
+h2 {
+  font-family: var(--text-font-three);
+  color: var(--primary-color);
+  font-size: 200px;
+  text-align: center;
+}
+
 h3 {
   font-family: courier;
   font-size: 30px;
   opacity: 0.5;
-}
-h1 {
-  font-family: var(--text-font);
   color: var(--primary-color);
-  font-size: 100px;
-  text-align: center;
 }
-.nav-link {
-  background: var(--gradient);
-  padding: 10px;
-
-  border-radius: 10px;
-  text-decoration: none;
-  font-family: var(--text-font-two);
-  box-shadow: 3px 3px 0px 3px var(--second-color);
-}
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   div {
     text-align: center;
     padding: 4px;
   }
+} */
+.nav-link {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--text-font-three);
+}
+
+.home {
+  margin-top: 100px;
+}
+.container-md {
+  background: var(--gradient2);
+}
+.homePrincipal {
+  height: 800px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+}
+.saludo {
+  margin-top: 230px;
+}
+.btn {
+  background: var(--gradient);
+  color: var(--primary-color);
+}
+
+.git {
+  width: 5%;
+  height: 5%;
+}
+.about {
+  width: 90%;
+  height: 90%;
+  border-color: var(--gradient);
+}
+.skill {
+  width: 100%;
+  height: 100%;
+}
+.spring {
+  width: 20%;
+  height: 40%;
+}
+section[id] {
+  scroll-margin-top: 100px;
 }
