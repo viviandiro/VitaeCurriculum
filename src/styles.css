@@ -96,3 +96,10 @@ h3 {
 section[id] {
   scroll-margin-top: 100px;
 }
+.contac {
+  font-size: 50px;
+}
+.logo1 {
+  width: 25%;
+  height: 50%;
+}
