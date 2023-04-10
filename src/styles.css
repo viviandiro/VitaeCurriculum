@@ -103,3 +103,23 @@ section[id] {
   width: 25%;
   height: 50%;
 }
+.mail {
+  text-decoration: none;
+  color: white;
+}
+.git {
+  text-decoration: none;
+  color: white;
+}
+.linkedin {
+  text-decoration: none;
+  color: white;
+}
+.certificacion {
+  width: 50%;
+  height: 40%;
+  padding: 20px;
+  box-shadow: inset 0 0 3em 0 rgb(118, 35, 139);
+
+  border-radius: 15px;
+}
